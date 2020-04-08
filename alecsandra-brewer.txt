@@ -29,14 +29,23 @@ Completed codepen: https://codepen.io/alecsandrabrewer/pen/XWmrmxR?editors=1100
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? text-transform:uppercase,lowercase,capitalize
     28. How do I add a 1px border around my div that is dotted and black? div{border-style:dotted; border-color:black; border-width:1px;}  
     29. How do I select everything on the page? universal selector. *{ }
-    30. How do I write a comment in CSS? /* comment */
-    31. How do I find out what file I am in, when I am using the command line? 
-    32. Using the command line - how do I see a list of files/folders in my current folder?
-    33. How do I remove a file via the command line? Why do I have to be careful with this? 
-    34. Why should I use version control? 
-    35. How often should I commit to github?
-    36. What is the command we would use to push our repo up to github? 
+    30. How do I write a comment in CSS? /* comment */ 
+    31. How do I find out what file I am in, when I am using the command line? run LS, it will list all the content of the folder that you're in.
+    32. Using the command line - how do I see a list of files/folders in my current folder? type ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? type rm, you have to be careful because it won't give you a confirmation to delete the file. once deleted it is gone for good.
+    34. Why should I use version control? You can use it to monitor and control code changes made during development across several people or teams.
+    35. How often should I commit to github? as often as possible
+    36. What is the command we would use to push our repo up to github? git push -u origin <branch name>
     37. Walk me through Lambda's git flow. 
+          Fork your own versin of repo
+          Add TL as a collaborator
+          Clone Repo (on terminal type: git clone <link>)
+          Create a branch on which you will implement the project (on terminal type: git checkout -b 'firstName-lastName')
+          Remember: git add .
+          Commit: git commit -m "comment"
+          Push: git push -u origin <branch name>
+          Submit Pull Request (use your own student fork as the base when comparing across forks)
+          TL will count the HW as done by merging the HW back into master "Student Fork"
 
 Stretch Questions
 
